@@ -12,11 +12,14 @@ assignees: ''
 **Use case**
 <!-- Describe how the need this ticket is trying to address -->
 
-# Tech notes
 
-**Checklist**
-- [ ] Requires changes to the frontend
-- [ ] Requires changes to the backend
+**Steps**
+1. 
 
-Frontend ticket (if applicable): #
-Backend ticket (if applicable): #
+## Tickets
+
+Frontend tickets:
+- #
+
+Backend tickets:
+- #

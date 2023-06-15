@@ -1,7 +1,7 @@
 ---
 name: Frontend ticket
 about: A frontend ticket to capture frontend implementation of a user story
-title: "(<USER TYPE>) <DESCRIPTION>"
+title: "(Frontend) <DESCRIPTION>"
 labels: frontend, MVP
 assignees: ''
 
@@ -9,19 +9,22 @@ assignees: ''
 
 # Frontend ticket
 
-Story ticket (if applicable): #
+Story ticket
+- #
 
 **Use case**
 <!-- Describe how the user will use this -->
 
-**Requirements**
+## Tech checklist
+- [ ] Requires a new route
+
+## Dependencies
+<!-- List any tickets that must first be completed--> 
+
+## Requirements
 <!-- Provide notes for how you think we should implement this -->
 
 **Notes**
-
-## Tech notes
-- [ ] Requires a new route
-- [ ] Requires changes to the backend
 
 ## Scenarios to consider
 <!-- Edge cases to consider when implementing the design. These should all be
