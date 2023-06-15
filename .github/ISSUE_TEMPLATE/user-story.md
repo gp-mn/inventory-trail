@@ -7,15 +7,16 @@ assignees: ''
 
 ---
 
-# Context
+# Story
 
-## Description
-
-
-## Use case
-
+**Use case**
+<!-- Describe how the need this ticket is trying to address -->
 
 # Tech notes
 
+**Checklist**
+- [ ] Requires changes to the frontend
+- [ ] Requires changes to the backend
 
-# Testing steps
+Frontend ticket (if applicable): [Ticket]()
+Backend ticket (if applicable): [Ticket]()
