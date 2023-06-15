@@ -1,7 +1,7 @@
 ---
 name: Backend ticket
 about: A backend ticket to capture backend implementation of a user story
-title: \[<VIEW>] <DESCRIPTION>
+title: \[<VIEW>\] <DESCRIPTION>
 labels: 'backend'
 assignees: ''
 

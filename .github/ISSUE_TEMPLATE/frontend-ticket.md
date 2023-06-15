@@ -1,7 +1,7 @@
 ---
 name: Frontend ticket
 about: A frontend ticket to capture frontend implementation of a user story
-title: \[<USER TYPE>] <DESCRIPTION>
+title: \[<USER TYPE>\] <DESCRIPTION>
 labels: 'frontend'
 assignees: ''
 
