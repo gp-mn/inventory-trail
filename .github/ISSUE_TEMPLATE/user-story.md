@@ -2,7 +2,7 @@
 name: User story
 about: Write a user story for a feature or need
 title: As a <USER TYPE> ISBAT <USER ACTION>
-labels: ''
+labels: MVP, story
 assignees: ''
 
 ---
@@ -18,5 +18,5 @@ assignees: ''
 - [ ] Requires changes to the frontend
 - [ ] Requires changes to the backend
 
-Frontend ticket (if applicable): [Ticket]()
-Backend ticket (if applicable): [Ticket]()
+Frontend ticket (if applicable): #
+Backend ticket (if applicable): #
