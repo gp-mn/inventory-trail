@@ -14,16 +14,21 @@ Inventory Trail is a simple web application used for keeping an audit trail for 
 
 # Technical notes
 
-Stack: Python, Django, Bootstrap, JQuery
+Stack: 
+- Python 3.10.12
+- Django 4.0.6
+- Bootstrap 5.3
 
 # Dev env setup
 
-1. Install the `pip` Python package manger if you haven't yet.
-2. Install `pipenv` to manage Python virtual environments
+1. Install the `pip` Python package manager if you haven't yet.
+1. (Recommendation) Install the `pyenv` Python version manager to manage your
+   Python versions.
+2. Install `pipenv` to manage Python virtual environments: `pip install pipenv`
 3. Clone the repo
-4. Install Python packages in the src folder: cd src; 
-pipenv install
-5. Create super user to access admin page: python manage.py createsuperuser
+4. Install Python packages in the src folder: `pipenv install`
+5. Run database migrations: `python manage.py migrate`
+5. Create super user to access admin page: `python manage.py createsuperuser`
 
 
 
