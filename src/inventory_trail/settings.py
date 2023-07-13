@@ -123,3 +123,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# HashID
+NON_PROD_SALT = "*3j-z+a=zb7zmuuoun3e9@yo2zh4e&!k3u7h-v)*e3jfft1=29"
+HASHID_FIELD_SALT = NON_PROD_SALT
