@@ -15,3 +15,10 @@ class ItemGroup(models.Model):
                               choices=[(AVAIL, "available"), (UNAVAIL, "unavailable")], 
                               default=AVAIL)
     description = models.TextField(null=False, blank=True)
+
+class Event(models.Model):
+    item_group = models.ForeignKey(ItemGroup, on_delete=models.CASCADE)
+    event_type = models.TextField(null=False, blank=True)
+    actor = models.TextField(null=False, blank=True)
+    datetime = models.DateTimeField(auto_now_add=True)  # fills in the datetime field as the entry is created (field is uneditable and hence not visible in admin panel)
+    num_items = models.IntegerField(default=0)
